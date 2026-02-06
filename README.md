@@ -2,9 +2,6 @@
 
 Calculate and visualize satellite brightness based on solar panel power requirements and viewing geometry.
 
-
-Requires: `lumos` library and `starlink` satellite models
-
 ## Usage
 
 ```python
@@ -64,8 +61,8 @@ The electrical power requirement of the satellite.
 
 ### `continuous` (True/False)
 Power generation mode:
-- **False** (default): Instantaneous power - panels sized for peak sunlight
-- **True**: Continuous power - panels sized for 24/7 operation (doubles the area)
+- **False** (default): Instantaneous power - panels sized only for satellite operation during sunlight
+- **True**: Continuous power - panels sized for satellite operation AND battery recharging (doubles the area for 24/7 capability)
 
 ### Optional Parameters
 
