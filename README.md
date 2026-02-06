@@ -5,7 +5,8 @@ Calculate and visualize satellite brightness based on solar panel power requirem
 ## Usage
 
 ```python
-result = calculate_brightness(
+import data_center
+result = data_center.calculate_brightness(
     sat_height=550e3,      # Satellite altitude in meters (550 km)
     sat_altitude=45,       # Viewing angle above horizon in degrees (0-90°)
     sat_azimuth=270,       # Direction to satellite: 0°=North, 90°=East, 180°=South, 270°=West
