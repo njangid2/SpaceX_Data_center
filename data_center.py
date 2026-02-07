@@ -18,7 +18,7 @@ from analysis import calculator
 
 # Constants
 BASE_PANEL_AREA = 104.96  # m² per panel
-BASE_POWER = 30.0  # kW per panel
+BASE_POWER = 25.0  # kW per panel
 
 # Default satellite model and earth BRDF
 DEFAULT_SATELLITE_MODEL = satellitemodels.get_surfaces()
